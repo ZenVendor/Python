@@ -2,7 +2,6 @@ def best_stock(data):
     return sorted(data, key=data.get, reverse=True)[0]
 
 
-
 if __name__ == '__main__':
     print("Example:")
     print(best_stock({

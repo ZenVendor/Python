@@ -3,6 +3,7 @@ def bigger_price(limit, data):
     result = []
     for i in range(0, limit):
         result.append(sortedDic[i])
+
     return result
 
 if __name__ == '__main__':

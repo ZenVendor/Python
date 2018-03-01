@@ -1,12 +1,12 @@
 def between_markers(text: str, begin: str, end: str) -> str:
-
     start = text.find(begin)
     finish = text.find(end)
+
     if start == -1:
         start = 0
     else:
-        start += len(begin
-                     )
+        start += len(begin)
+
     if finish == -1:
         finish = len(text)
 

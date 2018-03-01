@@ -4,6 +4,8 @@ def popular_words(text, words):
         p[word] = text.lower().count(word)
     return p
 
+
+
 if __name__ == '__main__':
     print("Example:")
     print(popular_words('''
