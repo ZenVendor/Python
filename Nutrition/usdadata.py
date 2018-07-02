@@ -1,5 +1,9 @@
 import csv, os, glob
 
+# script processes files downloaded from USDA Food Composition Databases https://ndb.nal.usda.gov/ndb
+# Standard reference database (generic foods), full report, csv
+# nutrition data files stored in inFolder are processed into rows in a single csv outFile
+# items that already exist in the output file are not processed again
 
 inFolder = 'csvdata/'
 outFile = 'nutritionTable.csv'
