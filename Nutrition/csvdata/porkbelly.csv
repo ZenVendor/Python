@@ -1,0 +1,102 @@
+Source: USDA National Nutrient Database for Standard Reference Legacy April 2018 Software v.3.9.4 2018-05-17
+Full Report (All Nutrients)
+Report Run at: July 01, 2018 16:59 EDT
+"Nutrient data for: 10005, Pork, fresh, belly, raw"
+Food Group:  Pork Products
+Common Name:
+Carbohydrate Factor: 3.87 Fat Factor: 9.02 Protein Factor: 4.27 Nitrogen to Protein Conversion Factor: 6.25 
+Refuse: 7% Refuse Description: Skin 
+Nutrient,Unit,1Value per 100 g,Data points,Std. Error,"4.0 oz = 113.0g","1 lb = 453.6g",
+Proximates
+"Water",g,36.74,33,0.540,41.52,166.65
+"Energy",kcal,518,--,--,585,2350
+"Energy",kJ,2167,--,--,2449,9830
+"Protein",g,9.34,33,0.160,10.55,42.37
+"Total lipid (fat)",g,53.01,33,0.680,59.90,240.45
+"Ash",g,0.49,--,--,0.55,2.22
+"Carbohydrate, by difference",g,0.00,--,--,0.00,0.00
+"Fiber, total dietary",g,0.0,--,--,0.0,0.0
+"Sugars, total",g,0.00,--,--,0.00,0.00
+Minerals
+"Calcium, Ca",mg,5,--,--,6,23
+"Iron, Fe",mg,0.52,--,--,0.59,2.36
+"Magnesium, Mg",mg,4,--,--,5,18
+"Phosphorus, P",mg,108,--,--,122,490
+"Potassium, K",mg,185,--,--,209,839
+"Sodium, Na",mg,32,--,--,36,145
+"Zinc, Zn",mg,1.02,--,--,1.15,4.63
+"Copper, Cu",mg,0.052,--,--,0.059,0.236
+"Manganese, Mn",mg,0.006,--,--,0.007,0.027
+"Selenium, Se",µg,8.0,--,--,9.0,36.3
+Vitamins
+"Vitamin C, total ascorbic acid",mg,0.3,--,--,0.3,1.4
+"Thiamin",mg,0.396,--,--,0.447,1.796
+"Riboflavin",mg,0.242,--,--,0.273,1.098
+"Niacin",mg,4.647,--,--,5.251,21.079
+"Pantothenic acid",mg,0.256,--,--,0.289,1.161
+"Vitamin B-6",mg,0.130,--,--,0.147,0.590
+"Folate, total",µg,1,--,--,1,5
+"Folic acid",µg,0,--,--,0,0
+"Folate, food",µg,1,--,--,1,5
+"Folate, DFE",µg,1,--,--,1,5
+"Vitamin B-12",µg,0.84,--,--,0.95,3.81
+"Vitamin B-12, added",µg,0.00,--,--,0.00,0.00
+"Vitamin A, RAE",µg,3,--,--,3,14
+"Retinol",µg,3,--,--,3,14
+"Carotene, beta",µg,0,--,--,0,0
+"Carotene, alpha",µg,0,--,--,0,0
+"Cryptoxanthin, beta",µg,0,--,--,0,0
+"Vitamin A, IU",IU,10,--,--,11,45
+"Lycopene",µg,0,--,--,0,0
+"Lutein + zeaxanthin",µg,0,--,--,0,0
+"Vitamin E (alpha-tocopherol)",mg,0.39,--,--,0.44,1.77
+"Vitamin E, added",mg,0.00,--,--,0.00,0.00
+"Tocopherol, beta",mg,0.00,--,--,0.00,0.00
+"Tocopherol, gamma",mg,0.08,--,--,0.09,0.36
+"Tocopherol, delta",mg,0.00,--,--,0.00,0.00
+"Vitamin K (phylloquinone)",µg,0.0,--,--,0.0,0.0
+Lipids
+"Fatty acids, total saturated",g,19.330,--,--,21.843,87.681
+"4:0",g,0.000,--,--,0.000,0.000
+"6:0",g,0.000,--,--,0.000,0.000
+"8:0",g,0.000,--,--,0.000,0.000
+"10:0",g,0.040,7,--,0.045,0.181
+"12:0",g,0.060,13,--,0.068,0.272
+"14:0",g,0.700,315,--,0.791,3.175
+"16:0",g,11.920,316,--,13.470,54.069
+"18:0",g,6.490,318,--,7.334,29.439
+"Fatty acids, total monounsaturated",g,24.700,--,--,27.911,112.039
+"16:1 undifferentiated",g,1.500,314,--,1.695,6.804
+"18:1 undifferentiated",g,22.770,316,--,25.730,103.285
+"20:1",g,0.430,7,--,0.486,1.950
+"22:1 undifferentiated",g,0.000,--,--,0.000,0.000
+"Fatty acids, total polyunsaturated",g,5.650,--,--,6.385,25.628
+"18:2 undifferentiated",g,5.030,316,--,5.684,22.816
+"18:3 undifferentiated",g,0.480,67,--,0.542,2.177
+"18:4",g,0.000,--,--,0.000,0.000
+"20:4 undifferentiated",g,0.140,29,--,0.158,0.635
+"20:5 n-3 (EPA)",g,0.000,--,--,0.000,0.000
+"22:5 n-3 (DPA)",g,0.000,--,--,0.000,0.000
+"22:6 n-3 (DHA)",g,0.000,--,--,0.000,0.000
+"Cholesterol",mg,72,1,--,81,327
+Amino Acids
+Other
+"Alcohol, ethyl",g,0.0,--,--,0.0,0.0
+"Caffeine",mg,0,--,--,0,0
+"Theobromine",mg,0,--,--,0,0
+Langual Code(s)
+"F0003""NOT HEAT-TREATED"
+"B1136""SWINE"
+"C0268""SKELETAL MEAT PART, WITHOUT BONE, WITHOUT SKIN"
+"H0003""NO TREATMENT APPLIED"
+"E0150""WHOLE, NATURAL SHAPE"
+"Z0046""SIDE (MEAT CUT)"
+"J0003""NO PRESERVATION METHOD USED"
+"N0003""NO FOOD CONTACT SURFACE PRESENT"
+"A1280""1000 PORK PRODUCTS (USDA SR)"
+"K0003""NO PACKING MEDIUM USED"
+"P0024""HUMAN FOOD, NO AGE SPECIFICATION"
+"G0003""COOKING METHOD NOT APPLICABLE"
+"A0150""MEAT OR MEAT PRODUCT (FROM MAMMAL) (US CFR)"
+"M0003""NO CONTAINER OR WRAPPING USED"
+"R0001""GEOGRAPHIC PLACE OR REGION NOT KNOWN"

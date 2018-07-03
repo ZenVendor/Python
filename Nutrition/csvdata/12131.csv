@@ -1,0 +1,163 @@
+Source: USDA National Nutrient Database for Standard Reference Legacy April 2018 Software v.3.9.4.1 2018-06-11
+Full Report (All Nutrients)
+Report Run at: July 02 2018 05:36 EDT
+"Nutrient data for: Nuts, macadamia nuts, raw"
+Food Group:  Nut and Seed Products
+Common Name:
+Carbohydrate Factor: 4.07 Fat Factor: 8.37 Protein Factor: 3.47 Nitrogen to Protein Conversion Factor: 5.3 
+Refuse: 69% Refuse Description: Shells 
+Nutrient,Unit,1Value per 100 g,Data points,Std. Error,"1 cup, whole or halves = 134.0g","1 oz (10-12 kernels) = 28.35g",
+Proximates
+"Water",g,1.36,3,0.060,1.82,0.39
+"Energy",kcal,718,--,--,962,204
+"Energy",kJ,3004,--,--,4025,852
+"Protein",g,7.91,3,0.350,10.60,2.24
+"Total lipid (fat)",g,75.77,3,1.140,101.53,21.48
+"Ash",g,1.14,3,0.030,1.53,0.32
+"Carbohydrate, by difference",g,13.82,--,--,18.52,3.92
+"Fiber, total dietary",g,8.6,3,0.900,11.5,2.4
+"Sugars, total",g,4.57,3,0.180,6.12,1.30
+"Sucrose",g,4.43,3,0.180,5.94,1.26
+"Glucose (dextrose)",g,0.07,3,0.000,0.09,0.02
+"Fructose",g,0.07,3,0.000,0.09,0.02
+"Lactose",g,0.00,3,0.000,0.00,0.00
+"Maltose",g,0.00,3,0.000,0.00,0.00
+"Starch",g,1.05,3,0.020,1.41,0.30
+Minerals
+"Calcium, Ca",mg,85,3,11.000,114,24
+"Iron, Fe",mg,3.69,3,0.720,4.94,1.05
+"Magnesium, Mg",mg,130,3,50.000,174,37
+"Phosphorus, P",mg,188,3,11.000,252,53
+"Potassium, K",mg,368,3,10.000,493,104
+"Sodium, Na",mg,5,3,1.000,7,1
+"Zinc, Zn",mg,1.30,3,0.090,1.74,0.37
+"Copper, Cu",mg,0.756,3,0.228,1.013,0.214
+"Manganese, Mn",mg,4.131,3,4.216,5.536,1.171
+"Selenium, Se",µg,3.6,1,--,4.8,1.0
+Vitamins
+"Vitamin C, total ascorbic acid",mg,1.2,3,0.200,1.6,0.3
+"Thiamin",mg,1.195,3,0.255,1.601,0.339
+"Riboflavin",mg,0.162,3,0.322,0.217,0.046
+"Niacin",mg,2.473,3,0.337,3.314,0.701
+"Pantothenic acid",mg,0.758,3,0.078,1.016,0.215
+"Vitamin B-6",mg,0.275,3,0.032,0.368,0.078
+"Folate, total",µg,11,3,1.000,15,3
+"Folic acid",µg,0,--,--,0,0
+"Folate, food",µg,11,3,1.000,15,3
+"Folate, DFE",µg,11,--,--,15,3
+"Vitamin B-12",µg,0.00,--,--,0.00,0.00
+"Vitamin A, RAE",µg,0,--,--,0,0
+"Retinol",µg,0,--,--,0,0
+"Vitamin A, IU",IU,0,--,--,0,0
+"Vitamin E (alpha-tocopherol)",mg,0.54,3,0.090,0.72,0.15
+"Tocopherol, beta",mg,0.00,3,0.000,0.00,0.00
+"Tocopherol, gamma",mg,0.00,3,0.000,0.00,0.00
+"Tocopherol, delta",mg,0.00,3,0.000,0.00,0.00
+"Vitamin D (D2 + D3)",µg,0.0,--,--,0.0,0.0
+"Vitamin D",IU,0,--,--,0,0
+Lipids
+"Fatty acids, total saturated",g,12.061,--,--,16.162,3.419
+"4:0",g,0.000,--,--,0.000,0.000
+"6:0",g,0.000,--,--,0.000,0.000
+"8:0",g,0.000,3,0.000,0.000,0.000
+"10:0",g,0.000,3,0.000,0.000,0.000
+"12:0",g,0.076,3,0.013,0.102,0.022
+"13:0",g,0.000,3,0.000,0.000,0.000
+"14:0",g,0.659,3,0.100,0.883,0.187
+"15:0",g,0.000,3,0.000,0.000,0.000
+"16:0",g,6.036,3,0.035,8.088,1.711
+"17:0",g,0.124,3,0.056,0.166,0.035
+"18:0",g,2.329,3,0.238,3.121,0.660
+"20:0",g,1.940,3,0.094,2.600,0.550
+"22:0",g,0.616,3,0.002,0.825,0.175
+"24:0",g,0.281,3,0.013,0.377,0.080
+"Fatty acids, total monounsaturated",g,58.877,--,--,78.895,16.692
+"14:1",g,0.000,3,0.000,0.000,0.000
+"16:1 undifferentiated",g,12.981,3,0.682,17.395,3.680
+"18:1 undifferentiated",g,43.755,3,1.251,58.632,12.405
+"20:1",g,1.890,3,0.047,2.533,0.536
+"22:1 undifferentiated",g,0.233,3,0.020,0.312,0.066
+"24:1 c",g,0.018,3,0.012,0.024,0.005
+"Fatty acids, total polyunsaturated",g,1.502,--,--,2.013,0.426
+"18:2 undifferentiated",g,1.296,3,0.090,1.737,0.367
+"18:3 undifferentiated",g,0.206,3,0.018,0.276,0.058
+"18:4",g,0.000,--,--,0.000,0.000
+"20:2 n-6 c,c",g,0.000,3,0.000,0.000,0.000
+"20:3 undifferentiated",g,0.000,3,0.000,0.000,0.000
+"20:4 undifferentiated",g,0.000,3,0.000,0.000,0.000
+"20:5 n-3 (EPA)",g,0.000,3,0.000,0.000,0.000
+"22:5 n-3 (DPA)",g,0.000,3,0.000,0.000,0.000
+"22:6 n-3 (DHA)",g,0.000,3,0.000,0.000,0.000
+"Cholesterol",mg,0,--,--,0,0
+"Phytosterols",mg,116,1,--,155,33
+"Stigmasterol",mg,0,1,--,0,0
+"Campesterol",mg,8,1,--,11,2
+"Beta-sitosterol",mg,108,1,--,145,31
+Amino Acids
+"Tryptophan",g,0.067,--,--,0.090,0.019
+"Threonine",g,0.370,--,--,0.496,0.105
+"Isoleucine",g,0.314,--,--,0.421,0.089
+"Leucine",g,0.602,--,--,0.807,0.171
+"Lysine",g,0.018,--,--,0.024,0.005
+"Methionine",g,0.023,--,--,0.031,0.007
+"Cystine",g,0.006,--,--,0.008,0.002
+"Phenylalanine",g,0.665,--,--,0.891,0.189
+"Tyrosine",g,0.511,--,--,0.685,0.145
+"Valine",g,0.363,--,--,0.486,0.103
+"Arginine",g,1.402,--,--,1.879,0.397
+"Histidine",g,0.195,--,--,0.261,0.055
+"Alanine",g,0.388,--,--,0.520,0.110
+"Aspartic acid",g,1.099,--,--,1.473,0.312
+"Glutamic acid",g,2.267,--,--,3.038,0.643
+"Glycine",g,0.454,--,--,0.608,0.129
+"Proline",g,0.468,--,--,0.627,0.133
+"Serine",g,0.419,--,--,0.561,0.119
+Other
+"Alcohol, ethyl",g,0.0,--,--,0.0,0.0
+"Caffeine",mg,0,--,--,0,0
+"Theobromine",mg,0,--,--,0,0
+Flavonoids
+Anthocyanidins
+"Cyanidin",mg,0.0,2,--,0.0,0.0
+"Petunidin",mg,0.0,2,--,0.0,0.0
+"Delphinidin ",mg,0.0,2,--,0.0,0.0
+"Malvidin",mg,0.0,2,--,0.0,0.0
+"Pelargonidin",mg,0.0,2,--,0.0,0.0
+"Peonidin",mg,0.0,2,--,0.0,0.0
+Flavan-3-ols
+"(+)-Catechin",mg,0.0,2,--,0.0,0.0
+"(-)-Epigallocatechin",mg,0.0,2,--,0.0,0.0
+"(-)-Epicatechin",mg,0.0,2,--,0.0,0.0
+"(-)-Epicatechin 3-gallate",mg,0.0,2,--,0.0,0.0
+"(-)-Epigallocatechin 3-gallate",mg,0.0,2,--,0.0,0.0
+"(+)-Gallocatechin",mg,0.0,2,--,0.0,0.0
+Flavanones
+"Hesperetin",mg,0.0,2,--,0.0,0.0
+"Naringenin",mg,0.0,2,--,0.0,0.0
+Flavones
+"Apigenin",mg,0.0,2,--,0.0,0.0
+"Luteolin",mg,0.0,1,--,0.0,0.0
+Flavonols
+"Myricetin",mg,0.0,2,--,0.0,0.0
+"Quercetin",mg,0.0,2,--,0.0,0.0
+
+
+Sources of Data
+1,"International Nut Council","Nutrient Content of Macadamia Nuts",1999,,
+2,"Harnly, J. M., Doherty, R., Beecher, G. R., Holden, J. M., Haytowitz, D. B., and Bhagwat, S., and Gebhardt S. ","Flavonoid content of U.S. fruits, vegetables, and nuts",2006,J. Agric. Food Chem.,54 pp. 9966-9966
+Footnotes
+(a)"Unroasted"
+Langual Code(s)
+"G0003""COOKING METHOD NOT APPLICABLE"
+"P0024""HUMAN FOOD, NO AGE SPECIFICATION"
+"A1282""1200 NUT AND SEED PRODUCTS (USDA SR)"
+"A0260""NUT OR NUT PRODUCT (US CFR)"
+"K0003""NO PACKING MEDIUM USED"
+"F0003""NOT HEAT-TREATED"
+"M0001""CONTAINER OR WRAPPING NOT KNOWN"
+"J0001""PRESERVATION METHOD NOT KNOWN"
+"B1451""MACADAMIA"
+"H0003""NO TREATMENT APPLIED"
+"C0155""SEED"
+"E0151""SOLID"
+"N0001""FOOD CONTACT SURFACE NOT KNOWN"

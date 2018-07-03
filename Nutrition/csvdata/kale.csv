@@ -1,0 +1,154 @@
+Source: USDA National Nutrient Database for Standard Reference Legacy April 2018 Software v.3.9.4 2018-05-17
+Full Report (All Nutrients)
+Report Run at: July 01, 2018 15:39 EDT
+"Nutrient data for: 11233, Kale, raw"
+Food Group:  Vegetables and Vegetable Products
+Common Name:
+Carbohydrate Factor: 3.57 Fat Factor: 8.37 Protein Factor: 2.44 Nitrogen to Protein Conversion Factor: 6.25 
+Refuse: 28% Refuse Description: Stem ends, tough stems and tough midrib parts 
+Nutrient,Unit,1Value per 100 g,Data points,Std. Error,"1 cup = 21.0g",
+Proximates
+"Water",g,89.63,5,0.240,18.82
+"Energy",kcal,35,--,--,7
+"Energy",kJ,148,--,--,31
+"Protein",g,2.92,5,0.290,0.61
+"Total lipid (fat)",g,1.49,5,0.020,0.31
+"Ash",g,1.54,5,0.080,0.32
+"Carbohydrate, by difference",g,4.42,--,--,0.93
+"Fiber, total dietary",g,4.1,2,--,0.9
+"Sugars, total",g,0.99,2,--,0.21
+"Sucrose",g,0.18,2,--,0.04
+"Glucose (dextrose)",g,0.40,2,--,0.08
+"Fructose",g,0.41,2,--,0.09
+"Lactose",g,0.00,2,--,0.00
+"Maltose",g,0.00,2,--,0.00
+"Galactose",g,0.00,2,--,0.00
+Minerals
+"Calcium, Ca",mg,254,5,14.000,53
+"Iron, Fe",mg,1.60,5,0.510,0.34
+"Magnesium, Mg",mg,33,5,3.000,7
+"Phosphorus, P",mg,55,5,2.000,12
+"Potassium, K",mg,348,5,14.000,73
+"Sodium, Na",mg,53,5,21.000,11
+"Zinc, Zn",mg,0.39,5,0.060,0.08
+"Copper, Cu",mg,0.053,5,0.008,0.011
+"Manganese, Mn",mg,0.920,5,0.181,0.193
+"Selenium, Se",µg,0.9,--,--,0.2
+Vitamins
+"Vitamin C, total ascorbic acid",mg,93.4,5,3.500,19.6
+"Thiamin",mg,0.113,3,0.017,0.024
+"Riboflavin",mg,0.347,3,0.044,0.073
+"Niacin",mg,1.180,3,0.207,0.248
+"Pantothenic acid",mg,0.370,2,--,0.078
+"Vitamin B-6",mg,0.147,3,0.013,0.031
+"Folate, total",µg,62,3,5.000,13
+"Folic acid",µg,0,--,--,0
+"Folate, food",µg,62,3,5.000,13
+"Folate, DFE",µg,62,--,--,13
+"Choline, total",mg,0.5,--,--,0.1
+"Betaine",mg,0.3,--,--,0.1
+"Vitamin B-12",µg,0.00,--,--,0.00
+"Vitamin B-12, added",µg,0.00,--,--,0.00
+"Vitamin A, RAE",µg,241,--,--,51
+"Retinol",µg,0,--,--,0
+"Carotene, beta",µg,2873,3,499.000,603
+"Carotene, alpha",µg,0,3,0.000,0
+"Cryptoxanthin, beta",µg,27,3,5.000,6
+"Vitamin A, IU",IU,4812,--,--,1011
+"Lycopene",µg,0,3,0.000,0
+"Lutein + zeaxanthin",µg,6261,3,1211.000,1315
+"Vitamin E (alpha-tocopherol)",mg,0.66,3,0.080,0.14
+"Vitamin E, added",mg,0.00,--,--,0.00
+"Tocopherol, beta",mg,0.00,3,0.000,0.00
+"Tocopherol, gamma",mg,0.14,3,0.030,0.03
+"Tocopherol, delta",mg,0.00,3,0.000,0.00
+"Vitamin D (D2 + D3)",µg,0.0,--,--,0.0
+"Vitamin D",IU,0,--,--,0
+"Vitamin K (phylloquinone)",µg,389.6,3,16.200,81.8
+Lipids
+"Fatty acids, total saturated",g,0.178,--,--,0.037
+"4:0",g,0.000,--,--,0.000
+"6:0",g,0.000,--,--,0.000
+"8:0",g,0.000,--,--,0.000
+"10:0",g,0.000,--,--,0.000
+"12:0",g,0.006,--,--,0.001
+"14:0",g,0.006,--,--,0.001
+"16:0",g,0.158,--,--,0.033
+"18:0",g,0.006,--,--,0.001
+"Fatty acids, total monounsaturated",g,0.104,--,--,0.022
+"16:1 undifferentiated",g,0.000,--,--,0.000
+"18:1 undifferentiated",g,0.104,--,--,0.022
+"20:1",g,0.000,--,--,0.000
+"22:1 undifferentiated",g,0.000,--,--,0.000
+"Fatty acids, total polyunsaturated",g,0.673,--,--,0.141
+"18:2 undifferentiated",g,0.291,--,--,0.061
+"18:3 undifferentiated",g,0.378,--,--,0.079
+"18:4",g,0.000,--,--,0.000
+"20:4 undifferentiated",g,0.003,--,--,0.001
+"20:5 n-3 (EPA)",g,0.000,--,--,0.000
+"22:5 n-3 (DPA)",g,0.000,--,--,0.000
+"22:6 n-3 (DHA)",g,0.000,--,--,0.000
+"Fatty acids, total trans",g,0.000,--,--,0.000
+"Cholesterol",mg,0,--,--,0
+Amino Acids
+"Tryptophan",g,0.035,--,--,0.007
+"Threonine",g,0.131,--,--,0.028
+"Isoleucine",g,0.175,--,--,0.037
+"Leucine",g,0.205,--,--,0.043
+"Lysine",g,0.175,--,--,0.037
+"Methionine",g,0.029,--,--,0.006
+"Cystine",g,0.038,--,--,0.008
+"Phenylalanine",g,0.150,--,--,0.032
+"Tyrosine",g,0.103,--,--,0.022
+"Valine",g,0.159,--,--,0.033
+"Arginine",g,0.163,--,--,0.034
+"Histidine",g,0.172,--,--,0.036
+"Alanine",g,0.147,--,--,0.031
+"Aspartic acid",g,0.262,--,--,0.055
+"Glutamic acid",g,0.331,--,--,0.070
+"Glycine",g,0.141,--,--,0.030
+"Proline",g,0.174,--,--,0.037
+"Serine",g,0.123,--,--,0.026
+Other
+"Alcohol, ethyl",g,0.0,--,--,0.0
+"Caffeine",mg,0,--,--,0
+"Theobromine",mg,0,--,--,0
+Flavonoids
+Flavones
+"Apigenin",mg,0.0,4,0.000,0.0
+"Luteolin",mg,0.0,2,--,0.0
+Flavonols
+"Isorhamnetin",mg,23.6,3,0.000,5.0
+"Kaempferol",mg,46.8,18,5.560,9.8
+"Myricetin",mg,0.0,2,--,0.0
+"Quercetin",mg,22.6,18,2.940,4.7
+Isoflavones
+"Daidzein",mg,0.00,1,--,0.00
+"Genistein",mg,0.00,1,--,0.00
+"Total isoflavones",mg,0.00,1,--,0.00
+
+
+Sources of Data
+1,"Nutrient Data Laboratory, ARS, USDA","National Food and Nutrient Analysis Program Wave 20a",2015,,BeltsvilleMD
+2,"Hertog, M. G. L., Hollman, P. C. H., and Katan, M. B. ","Content of potentially anticarcinogenic flavonoids of 28 vegetables and fruits commonly consumed in The Netherlands.",1992,J. Agric. Food Chem.,40 pp. 2379-2379
+3,"Huber, L. S., Hoffman-Ribani, R., and Rodriguez-Amaya, D. B. ","Quantitative variation in Brazilian vegetable sources of flavonols and flavones.",2009,Food Chemistry,113 pp. 1278-1278
+4,"Lugasi, A., and Hovari, J.","Flavonoid aglycons in foods of plant origin I. Vegetables",2000,Acta Alimentaria,29 pp. 345-345
+5,"Huang, Z., Wang, B., Eaves, D. H., Shikany, J. M., and Pace, R. D.","Phenolic compound profile of selected vegetables frequently consumed by African Americans in the southeast United States.",2007,Food Chemistry,103 pp. 1395-1395
+6,"Bilyk, A., and  Sapers, G. M. ","Distribution of quercetin and kaempferol in lettuce, kale, chive, garlic chive, leek, horseradish, red radish, and red cabbage tissues.",1985,J. Agric. Food Chem.,33 pp. 226-226
+7,"Justesen, U., Knuthsen, P., and Leth, T.","Quantitative analysis of flavonols, flavones, and flavonones in fruits, vegetables and beverages by high-performance liquid chromatography with photo-diode array and mass spectrometric detection.",1998,J. Chromatogr. A,799 pp. 101-101
+8,"Olsen, H., Aaby, K., and Borge, G. I.","Characterization and quantification of flavonoids and hydroxycinnamic acids in culry kale (Brassica oleracea L. convar. Acephala var. sabellica) by HPLC-DAD-ESI-MS.",2009,J. Agric. Food Chem.,57 pp. 2816-2816
+9,"Horn-Ross, P. L., Barnes, S., Lee, M., Coward, L., Mandel, E., Koo, J., John, E. M., and Smith, M. ","Assesing phytoestrogen exposure in epidemiologic studies: development of a database (United States).",2000,Cancer Causes and Control,11 pp. 289-289
+Langual Code(s)
+"A0152""VEGETABLE OR VEGETABLE PRODUCT (US CFR)"
+"C0200""LEAF"
+"N0001""FOOD CONTACT SURFACE NOT KNOWN"
+"B1281""KALE"
+"F0003""NOT HEAT-TREATED"
+"J0001""PRESERVATION METHOD NOT KNOWN"
+"G0003""COOKING METHOD NOT APPLICABLE"
+"A1281""1100 VEGETABLES AND VEGETABLE PRODUCTS (USDA SR)"
+"H0003""NO TREATMENT APPLIED"
+"E0150""WHOLE, NATURAL SHAPE"
+"P0024""HUMAN FOOD, NO AGE SPECIFICATION"
+"M0001""CONTAINER OR WRAPPING NOT KNOWN"
+"K0003""NO PACKING MEDIUM USED"

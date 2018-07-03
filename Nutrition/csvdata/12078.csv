@@ -1,0 +1,192 @@
+Source: USDA National Nutrient Database for Standard Reference Legacy April 2018 Software v.3.9.4.1 2018-06-11
+Full Report (All Nutrients)
+Report Run at: July 02 2018 05:35 EDT
+"Nutrient data for: Nuts, brazilnuts, dried, unblanched"
+Food Group:  Nut and Seed Products
+Common Name:brazil nuts
+Carbohydrate Factor: 4.07 Fat Factor: 8.37 Protein Factor: 3.47 Nitrogen to Protein Conversion Factor: 5.46 
+Refuse: 49% Refuse Description: Shells 
+Nutrient,Unit,1Value per 100 g,Data points,Std. Error,"1 cup, whole = 133.0g","1 kernel = 5.0g","1 oz (6 kernels) = 28.35g",
+Proximates
+"Water",g,3.42,10,0.250,4.55,0.17,0.97
+"Energy",kcal,659,--,--,876,33,187
+"Energy",kJ,2757,--,--,3667,138,782
+"Protein",g,14.32,7,0.140,19.05,0.72,4.06
+"Total lipid (fat)",g,67.10,11,0.580,89.24,3.35,19.02
+"Ash",g,3.43,8,0.070,4.56,0.17,0.97
+"Carbohydrate, by difference",g,11.74,--,--,15.61,0.59,3.33
+"Fiber, total dietary",g,7.5,3,0.200,10.0,0.4,2.1
+"Sugars, total",g,2.33,7,0.070,3.10,0.12,0.66
+"Sucrose",g,2.33,7,0.070,3.10,0.12,0.66
+"Glucose (dextrose)",g,0.00,7,0.000,0.00,0.00,0.00
+"Fructose",g,0.00,7,0.000,0.00,0.00,0.00
+"Lactose",g,0.00,7,0.000,0.00,0.00,0.00
+"Maltose",g,0.00,7,0.000,0.00,0.00,0.00
+"Galactose",g,0.00,7,0.000,0.00,0.00,0.00
+"Starch",g,0.25,7,0.000,0.33,0.01,0.07
+Minerals
+"Calcium, Ca",mg,160,7,5.000,213,8,45
+"Iron, Fe",mg,2.43,7,0.030,3.23,0.12,0.69
+"Magnesium, Mg",mg,376,7,3.000,500,19,107
+"Phosphorus, P",mg,725,7,5.000,964,36,206
+"Potassium, K",mg,659,7,8.000,876,33,187
+"Sodium, Na",mg,3,7,0.000,4,0,1
+"Zinc, Zn",mg,4.06,7,0.040,5.40,0.20,1.15
+"Copper, Cu",mg,1.743,7,0.021,2.318,0.087,0.494
+"Manganese, Mn",mg,1.223,7,0.052,1.627,0.061,0.347
+"Selenium, Se",µg,1917.0,15,231.700,2549.6,95.8,543.5
+Vitamins
+"Vitamin C, total ascorbic acid",mg,0.7,3,0.000,0.9,0.0,0.2
+"Thiamin",mg,0.617,7,0.053,0.821,0.031,0.175
+"Riboflavin",mg,0.035,7,0.001,0.047,0.002,0.010
+"Niacin",mg,0.295,7,0.019,0.392,0.015,0.084
+"Pantothenic acid",mg,0.184,7,0.012,0.245,0.009,0.052
+"Vitamin B-6",mg,0.101,7,0.004,0.134,0.005,0.029
+"Folate, total",µg,22,4,2.000,29,1,6
+"Folic acid",µg,0,--,--,0,0,0
+"Folate, food",µg,22,4,2.000,29,1,6
+"Folate, DFE",µg,22,--,--,29,1,6
+"Choline, total",mg,28.8,--,--,38.3,1.4,8.2
+"Betaine",mg,0.4,2,--,0.5,0.0,0.1
+"Vitamin B-12",µg,0.00,--,--,0.00,0.00,0.00
+"Vitamin B-12, added",µg,0.00,--,--,0.00,0.00,0.00
+"Vitamin A, RAE",µg,0,1,--,0,0,0
+"Retinol",µg,0,--,--,0,0,0
+"Carotene, beta",µg,0,1,--,0,0,0
+"Carotene, alpha",µg,0,1,--,0,0,0
+"Cryptoxanthin, beta",µg,0,1,--,0,0,0
+"Vitamin A, IU",IU,0,1,--,0,0,0
+"Lycopene",µg,0,1,--,0,0,0
+"Lutein + zeaxanthin",µg,0,1,--,0,0,0
+"Vitamin E (alpha-tocopherol)",mg,5.65,9,1.090,7.51,0.28,1.60
+"Vitamin E, added",mg,0.00,--,--,0.00,0.00,0.00
+"Tocopherol, beta",mg,0.01,9,0.008,0.01,0.00,0.00
+"Tocopherol, gamma",mg,9.56,9,2.270,12.71,0.48,2.71
+"Tocopherol, delta",mg,0.63,9,0.480,0.84,0.03,0.18
+"Vitamin D (D2 + D3)",µg,0.0,--,--,0.0,0.0,0.0
+"Vitamin D",IU,0,--,--,0,0,0
+"Vitamin K (phylloquinone)",µg,0.0,7,0.000,0.0,0.0,0.0
+Lipids
+"Fatty acids, total saturated",g,16.134,--,--,21.458,0.807,4.574
+"4:0",g,0.000,--,--,0.000,0.000,0.000
+"6:0",g,0.000,--,--,0.000,0.000,0.000
+"8:0",g,0.000,4,0.000,0.000,0.000,0.000
+"10:0",g,0.000,3,0.000,0.000,0.000,0.000
+"12:0",g,0.000,4,0.000,0.000,0.000,0.000
+"14:0",g,0.046,4,0.007,0.061,0.002,0.013
+"15:0",g,0.000,4,0.000,0.000,0.000,0.000
+"16:0",g,9.626,7,0.221,12.803,0.481,2.729
+"17:0",g,0.041,4,0.021,0.055,0.002,0.012
+"18:0",g,6.244,7,0.250,8.305,0.312,1.770
+"20:0",g,0.167,4,0.009,0.222,0.008,0.047
+"22:0",g,0.010,7,0.010,0.013,0.000,0.003
+"24:0",g,0.000,1,--,0.000,0.000,0.000
+"Fatty acids, total monounsaturated",g,23.879,--,--,31.759,1.194,6.770
+"14:1",g,0.000,4,0.000,0.000,0.000,0.000
+"15:1",g,0.000,3,0.000,0.000,0.000,0.000
+"16:1 undifferentiated",g,0.214,7,0.013,0.285,0.011,0.061
+"17:1",g,0.045,3,0.009,0.060,0.002,0.013
+"18:1 undifferentiated",g,23.594,7,1.616,31.380,1.180,6.689
+"20:1",g,0.027,7,0.015,0.036,0.001,0.008
+"22:1 undifferentiated",g,0.000,1,--,0.000,0.000,0.000
+"Fatty acids, total polyunsaturated",g,24.399,--,--,32.451,1.220,6.917
+"18:2 undifferentiated",g,24.363,7,1.992,32.403,1.218,6.907
+"18:2 n-6 c,c",g,23.859,3,--,31.732,1.193,6.764
+"18:3 undifferentiated",g,0.036,--,--,0.048,0.002,0.010
+"18:3 n-3 c,c,c (ALA)",g,0.018,6,0.017,0.024,0.001,0.005
+"18:3 n-6 c,c,c",g,0.018,3,0.000,0.024,0.001,0.005
+"18:4",g,0.000,--,--,0.000,0.000,0.000
+"20:2 n-6 c,c",g,0.000,6,0.000,0.000,0.000,0.000
+"20:3 undifferentiated",g,0.000,3,0.000,0.000,0.000,0.000
+"20:4 undifferentiated",g,0.000,3,0.000,0.000,0.000,0.000
+"20:5 n-3 (EPA)",g,0.000,--,--,0.000,0.000,0.000
+"22:5 n-3 (DPA)",g,0.000,--,--,0.000,0.000,0.000
+"22:6 n-3 (DHA)",g,0.000,--,--,0.000,0.000,0.000
+"Cholesterol",mg,0,--,--,0,0,0
+"Stigmasterol",mg,6,7,0.000,8,0,2
+"Campesterol",mg,2,7,0.000,3,0,1
+"Beta-sitosterol",mg,64,7,1.000,85,3,18
+Amino Acids
+"Tryptophan",g,0.135,--,--,0.180,0.007,0.038
+"Threonine",g,0.365,--,--,0.485,0.018,0.103
+"Isoleucine",g,0.518,--,--,0.689,0.026,0.147
+"Leucine",g,1.190,--,--,1.583,0.059,0.337
+"Lysine",g,0.490,--,--,0.652,0.025,0.139
+"Methionine",g,1.124,--,--,1.495,0.056,0.319
+"Cystine",g,0.306,--,--,0.407,0.015,0.087
+"Phenylalanine",g,0.639,--,--,0.850,0.032,0.181
+"Tyrosine",g,0.416,--,--,0.553,0.021,0.118
+"Valine",g,0.760,--,--,1.011,0.038,0.215
+"Arginine",g,2.140,--,--,2.846,0.107,0.607
+"Histidine",g,0.409,--,--,0.544,0.020,0.116
+"Alanine",g,0.609,--,--,0.810,0.030,0.173
+"Aspartic acid",g,1.325,--,--,1.762,0.066,0.376
+"Glutamic acid",g,3.190,--,--,4.243,0.160,0.904
+"Glycine",g,0.733,--,--,0.975,0.037,0.208
+"Proline",g,0.706,--,--,0.939,0.035,0.200
+"Serine",g,0.676,--,--,0.899,0.034,0.192
+Other
+"Alcohol, ethyl",g,0.0,--,--,0.0,0.0,0.0
+"Caffeine",mg,0,--,--,0,0,0
+"Theobromine",mg,0,--,--,0,0,0
+Flavonoids
+Anthocyanidins
+"Cyanidin",mg,0.0,2,--,0.0,0.0,0.0
+"Petunidin",mg,0.0,2,--,0.0,0.0,0.0
+"Delphinidin ",mg,0.0,2,--,0.0,0.0,0.0
+"Malvidin",mg,0.0,2,--,0.0,0.0,0.0
+"Pelargonidin",mg,0.0,2,--,0.0,0.0,0.0
+"Peonidin",mg,0.0,2,--,0.0,0.0,0.0
+Flavan-3-ols
+"(+)-Catechin",mg,0.0,2,--,0.0,0.0,0.0
+"(-)-Epigallocatechin",mg,0.0,2,--,0.0,0.0,0.0
+"(-)-Epicatechin",mg,0.0,2,--,0.0,0.0,0.0
+"(-)-Epicatechin 3-gallate",mg,0.0,2,--,0.0,0.0,0.0
+"(-)-Epigallocatechin 3-gallate",mg,0.0,2,--,0.0,0.0,0.0
+"(+)-Gallocatechin",mg,0.0,2,--,0.0,0.0,0.0
+Flavanones
+"Hesperetin",mg,0.0,2,--,0.0,0.0,0.0
+"Naringenin",mg,0.0,2,--,0.0,0.0,0.0
+Flavones
+"Apigenin",mg,0.0,2,--,0.0,0.0,0.0
+"Luteolin",mg,0.0,1,--,0.0,0.0,0.0
+Flavonols
+"Myricetin",mg,0.0,2,--,0.0,0.0,0.0
+"Quercetin",mg,0.0,2,--,0.0,0.0,0.0
+Isoflavones
+"Daidzein",mg,0.00,1,--,0.00,0.00,0.00
+"Genistein",mg,0.00,1,--,0.00,0.00,0.00
+"Total isoflavones",mg,0.00,1,--,0.00,0.00,0.00
+Proanthocyanidin
+"Proanthocyanidin dimers",mg,0.0,1,--,0.0,0.0,0.0
+"Proanthocyanidin trimers",mg,0.0,1,--,0.0,0.0,0.0
+"Proanthocyanidin 4-6mers",mg,0.0,1,--,0.0,0.0,0.0
+"Proanthocyanidin 7-10mers",mg,0.0,1,--,0.0,0.0,0.0
+"Proanthocyanidin polymers (>10mers)",mg,0.0,1,--,0.0,0.0,0.0
+
+
+Sources of Data
+1,"Nutrient Data Laboratory, ARS, USDA","National Food and Nutrient Analysis Program Wave 6b",2002,,BeltsvilleMD
+2,"Nutrient Data Laboratory, ARS, USDA","National Food and Nutrient Analysis Program Wave 5d",2001,,BeltsvilleMD
+3,"M. Venkatachalam, S.K. Sathe","Chemical composition of selected edible nut seeds",2006,Journal of Agricultural and Food Chemistry,54MD pp. 4705-4705
+4,"KS Robbins, E-C Shin, RL Shewfelt, R R Eitenmiller, RB Pegg","Update on the healthful lipid constituents of commercially important tree nuts",2011,Journal of Agricultural and Food Chemistry,59MD pp. 12083-12083
+5,"Nutrient Data Laboratory, ARS, USDA","Nutrient Analysis of Selected Foods, University of Georgia",1987,,BeltsvilleMD pp. 12083-12083
+6,"Harnly, J. M., Doherty, R., Beecher, G. R., Holden, J. M., Haytowitz, D. B., and Bhagwat, S., and Gebhardt S. ","Flavonoid content of U.S. fruits, vegetables, and nuts",2006,J. Agric. Food Chem.,54 pp. 9966-9966
+7,"Gu, L., Kelm, M.A., Hammerstone, J.F., Beecher, G., Holden, J., Haytowitz, D., Gebhardt, S., and Prior, R.L.","Screening foods containing proanthocyanidins and their structural characterization using LC-MS/MS and thiolytic degradation",2003,J. Agric. Food Chem.,51 pp. 7513-7513
+8,"Liggins, J., Bluck, L. J. C., Runswick, S., Atkinson, C., Coward, W. A., Bingham, S. A. ","Daidzein and genistein content of fruits and nuts.",2000,J. Nutr. Biochem.,11 pp. 326-326
+Footnotes
+(a)"Other phytosterols total 51.5 mg/100g; these include delta 5-avenasterol + beta-sitostanol (19.7) and other minor phytosterols."
+Langual Code(s)
+"C0133""SEED, SKIN PRESENT, GERM PRESENT"
+"E0151""SOLID"
+"G0003""COOKING METHOD NOT APPLICABLE"
+"F0001""EXTENT OF HEAT TREATMENT NOT KNOWN"
+"N0001""FOOD CONTACT SURFACE NOT KNOWN"
+"H0138""WATER REMOVED"
+"J0116""DEHYDRATED OR DRIED"
+"B1463""BRAZILNUT"
+"A0260""NUT OR NUT PRODUCT (US CFR)"
+"K0003""NO PACKING MEDIUM USED"
+"P0024""HUMAN FOOD, NO AGE SPECIFICATION"
+"A1282""1200 NUT AND SEED PRODUCTS (USDA SR)"
+"M0001""CONTAINER OR WRAPPING NOT KNOWN"

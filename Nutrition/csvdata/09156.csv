@@ -1,0 +1,100 @@
+Source: USDA National Nutrient Database for Standard Reference Legacy April 2018 Software v.3.9.4.1 2018-06-11
+Full Report (All Nutrients)
+Report Run at: July 02 2018 05:48 EDT
+"Nutrient data for: Lemon peel, raw"
+Food Group:  Fruits and Fruit Juices
+Common Name:
+Nitrogen to Protein Conversion Factor: 6.25 
+Nutrient,Unit,1Value per 100 g,Data points,Std. Error,"1 tbsp = 6.0g","1 tsp = 2.0g",
+Proximates
+"Water",g,81.60,--,--,4.90,1.63
+"Energy",kcal,47,--,--,3,1
+"Energy",kJ,197,--,--,12,4
+"Protein",g,1.50,--,--,0.09,0.03
+"Total lipid (fat)",g,0.30,--,--,0.02,0.01
+"Ash",g,0.60,--,--,0.04,0.01
+"Carbohydrate, by difference",g,16.00,--,--,0.96,0.32
+"Fiber, total dietary",g,10.6,--,--,0.6,0.2
+"Sugars, total",g,4.17,--,--,0.25,0.08
+Minerals
+"Calcium, Ca",mg,134,--,--,8,3
+"Iron, Fe",mg,0.80,--,--,0.05,0.02
+"Magnesium, Mg",mg,15,--,--,1,0
+"Phosphorus, P",mg,12,--,--,1,0
+"Potassium, K",mg,160,--,--,10,3
+"Sodium, Na",mg,6,--,--,0,0
+"Zinc, Zn",mg,0.25,--,--,0.01,0.01
+"Copper, Cu",mg,0.092,--,--,0.006,0.002
+"Selenium, Se",µg,0.7,--,--,0.0,0.0
+Vitamins
+"Vitamin C, total ascorbic acid",mg,129.0,--,--,7.7,2.6
+"Thiamin",mg,0.060,--,--,0.004,0.001
+"Riboflavin",mg,0.080,--,--,0.005,0.002
+"Niacin",mg,0.400,--,--,0.024,0.008
+"Pantothenic acid",mg,0.319,--,--,0.019,0.006
+"Vitamin B-6",mg,0.172,--,--,0.010,0.003
+"Folate, total",µg,13,--,--,1,0
+"Folic acid",µg,0,--,--,0,0
+"Folate, food",µg,13,--,--,1,0
+"Folate, DFE",µg,13,--,--,1,0
+"Choline, total",mg,8.5,--,--,0.5,0.2
+"Vitamin B-12",µg,0.00,--,--,0.00,0.00
+"Vitamin B-12, added",µg,0.00,--,--,0.00,0.00
+"Vitamin A, RAE",µg,3,--,--,0,0
+"Retinol",µg,0,--,--,0,0
+"Carotene, beta",µg,7,--,--,0,0
+"Carotene, alpha",µg,1,--,--,0,0
+"Cryptoxanthin, beta",µg,45,--,--,3,1
+"Vitamin A, IU",IU,50,--,--,3,1
+"Lycopene",µg,0,--,--,0,0
+"Lutein + zeaxanthin",µg,18,--,--,1,0
+"Vitamin E (alpha-tocopherol)",mg,0.25,--,--,0.01,0.01
+"Vitamin E, added",mg,0.00,--,--,0.00,0.00
+"Vitamin D (D2 + D3)",µg,0.0,--,--,0.0,0.0
+"Vitamin D",IU,0,--,--,0,0
+"Vitamin K (phylloquinone)",µg,0.0,--,--,0.0,0.0
+Lipids
+"Fatty acids, total saturated",g,0.039,--,--,0.002,0.001
+"4:0",g,0.000,--,--,0.000,0.000
+"6:0",g,0.000,--,--,0.000,0.000
+"8:0",g,0.000,--,--,0.000,0.000
+"10:0",g,0.000,--,--,0.000,0.000
+"12:0",g,0.000,--,--,0.000,0.000
+"14:0",g,0.001,--,--,0.000,0.000
+"16:0",g,0.035,--,--,0.002,0.001
+"18:0",g,0.002,--,--,0.000,0.000
+"Fatty acids, total monounsaturated",g,0.011,--,--,0.001,0.000
+"16:1 undifferentiated",g,0.001,--,--,0.000,0.000
+"18:1 undifferentiated",g,0.010,--,--,0.001,0.000
+"20:1",g,0.000,--,--,0.000,0.000
+"22:1 undifferentiated",g,0.000,--,--,0.000,0.000
+"Fatty acids, total polyunsaturated",g,0.089,--,--,0.005,0.002
+"18:2 undifferentiated",g,0.063,--,--,0.004,0.001
+"18:3 undifferentiated",g,0.026,--,--,0.002,0.001
+"18:4",g,0.000,--,--,0.000,0.000
+"20:4 undifferentiated",g,0.000,--,--,0.000,0.000
+"20:5 n-3 (EPA)",g,0.000,--,--,0.000,0.000
+"22:5 n-3 (DPA)",g,0.000,--,--,0.000,0.000
+"22:6 n-3 (DHA)",g,0.000,--,--,0.000,0.000
+"Fatty acids, total trans",g,0.000,--,--,0.000,0.000
+"Cholesterol",mg,0,--,--,0,0
+"Phytosterols",mg,35,--,--,2,1
+Amino Acids
+Other
+"Alcohol, ethyl",g,0.0,--,--,0.0,0.0
+"Caffeine",mg,0,--,--,0,0
+"Theobromine",mg,0,--,--,0,0
+Langual Code(s)
+"C0294""FRUIT, PEEL ONLY"
+"G0003""COOKING METHOD NOT APPLICABLE"
+"M0001""CONTAINER OR WRAPPING NOT KNOWN"
+"J0001""PRESERVATION METHOD NOT KNOWN"
+"K0003""NO PACKING MEDIUM USED"
+"A1279""0900 FRUITS AND FRUIT JUICES (USDA SR)"
+"B1275""LEMON"
+"F0003""NOT HEAT-TREATED"
+"P0024""HUMAN FOOD, NO AGE SPECIFICATION"
+"E0152""DIVIDED INTO PIECES"
+"H0003""NO TREATMENT APPLIED"
+"A0143""FRUIT OR FRUIT PRODUCT (US CFR)"
+"N0001""FOOD CONTACT SURFACE NOT KNOWN"
