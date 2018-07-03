@@ -1,9 +1,6 @@
-def second_index(text: str, symbol: str) -> int:
-    """
-        returns the second index of a symbol in a given text
-    """
-    # your code here
-    import re
+import re
+
+def second_index_attempt1(text: str, symbol: str) -> int:
     p = re.compile(symbol)
     r = p.finditer(text)
     result = list(r)
@@ -12,6 +9,20 @@ def second_index(text: str, symbol: str) -> int:
     else:
         return
 
+def second_index_attempt1_clean(text: str, symbol: str) -> int:
+    result = list(re.finditer(symbol, text))
+    if len(result) > 1:
+        return result[1].start()
+    else:
+        return
+
+def second_index(text: str, symbol: str) -> int:
+    try:
+        return text.index(symbol, text.index(symbol) + 1)
+    except:
+        return None
+
+print(second_index("sims", "s"))
 
 if __name__ == '__main__':
     print('Example:')

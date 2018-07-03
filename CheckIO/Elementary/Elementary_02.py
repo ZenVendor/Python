@@ -6,8 +6,8 @@ def correct_sentence(text: str) -> str:
     # your code here
     if text[-1] != '.':
         text += '.'
-
-    return text.capitalize()
+    text = text[0].capitalize()
+    return text
 
 
 if __name__ == '__main__':

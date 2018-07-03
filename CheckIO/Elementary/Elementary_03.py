@@ -1,13 +1,6 @@
+import re
 def first_word(text: str) -> str:
-    """
-        returns the first word in a given text.
-    """
-    # your code here
-    import re
-    pattern = re.compile("[A-Za-z']+")
-    result = pattern.search(text)
-
-    return result.group()
+    return re.search("[A-Za-z']+", text).group()
 
 
 if __name__ == '__main__':
