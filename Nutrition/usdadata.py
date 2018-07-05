@@ -1,4 +1,6 @@
-import csv, os, glob
+import csv
+import os
+import glob
 
 # script processes files downloaded from USDA Food Composition Databases https://ndb.nal.usda.gov/ndb
 # Standard reference database (generic foods), full report, csv
@@ -43,66 +45,91 @@ existingItems = {}
 
 csv.register_dialect('nutrition', delimiter=';', quoting=csv.QUOTE_ALL)
 
+# Check if file exists and has a CSV header. If yes, list existing IDs and their report dates
 if os.path.isfile(outFile):
-    with open(outFile, 'r') as check:
-        hasHeader = csv.Sniffer().has_header(check.read(128))
+    with open(outFile, 'r') as checkHeader:
+        hasHeader = csv.Sniffer().has_header(checkHeader.read(1024))
 
-        lines = csv.reader(check, 'nutrition')
-        for line in lines:
-            existingItems[line[0]] = line[2]
+    if hasHeader:
+        with open(outFile, 'r') as checkRecords:
+            for i, rec in enumerate(csv.reader(checkRecords, 'nutrition')):
+                if i == 0:
+                    csvHeader = rec
+                    continue
+                else:
+                    if len(rec) is not 0:
+                        csvRows.append(rec)
+                        existingItems[rec[0]] = rec[2]
 
+# Process each file
 for inFile in glob.glob(inFolder + '*.csv'):
 
+    proxRowNo = 8
+    valueColumnNo = 2
     foodItemMeta = {}
     nutritionTable = []
 
     with open(inFile, 'r') as csvFile:
 
-        wholeCsv = enumerate(csv.reader(csvFile))
+        wholeCsv = {i: row for i, row in enumerate(csv.reader(csvFile))}
+
         cat = None
 
-        meta = [row for i, row in wholeCsv if i in [0, 2, 3]]
-
-        food = meta[2][0].split(': ')[1]
+        # Metadata rows
+        # USDA Id and Name (Line 3)
+        food = wholeCsv[3][0].split(': ')[1]
         foodParts = food.split(',', 1)
-
-        filename = csvFile.name.split('\\')[-1].split('.')[0]
-
-        print(filename)
-
-        if filename.isdigit():
-            foodItemMeta['USDA Id'] = filename
 
         if foodParts[0].isdigit():
             foodItemMeta['USDA Id'] = foodParts[0]
             foodItemMeta['Food Name'] = foodParts[1]
         else:
+            if '/' in csvFile.name:
+                filename = csvFile.name.split('/')[-1].split('.')[0]
+            else:
+                filename = csvFile.name.split('\\')[-1].split('.')[0]
+
+            if filename.isdigit():
+                foodItemMeta['USDA Id'] = filename
+
             foodItemMeta['Food Name'] = food
 
-        reportDate = ''.join(meta[1]).split(':', 1)[1].strip().split(' ')[:3]
+        # Report Date (Line 2)
+        reportDate = ''.join(wholeCsv[2]).split(':', 1)[1].strip().split(' ')[:3]
         foodItemMeta['Report Date'] = '{}-{}-{}'.format(reportDate[2], monthNames[reportDate[0]], (reportDate[1]))
 
-        if foodItemMeta['USDA Id'] in existingItems.keys() and foodItemMeta['Report Date'] == existingItems[foodItemMeta['USDA Id']]:
-            break
+        # Check if exists or has to bee updated, else skip
+        if foodItemMeta['USDA Id'] in existingItems.keys():
+            if foodItemMeta['Report Date'] <= existingItems[foodItemMeta['USDA Id']]:
+                break
 
-        print('still going')
+        existingItems[foodItemMeta['USDA Id']] = foodItemMeta['Report Date']
 
-        if 'Standard Reference' in meta[0][0]:
+        # Food Group
+        foodItemMeta['Food Group'] = wholeCsv[4][0].split(':', 1)[1]
+
+        # Standard Reference DB (Line 0)
+        if 'Standard Reference' in wholeCsv[0][0]:
             foodItemMeta['Source'] = 'SR'
         else:
             foodItemMeta['Source'] = ''
 
-        for i, row in wholeCsv:
-            if i < 9:
-                continue
+        # Per 100g value column
+        for i in reversed(range(7, 9)):
+            if wholeCsv[i][0] == 'Proximates':
+                proxRowNo = i
+                valueColumnNo = i - 1
+                break
 
+        # Data rows
+        for i, row in wholeCsv.items():
+            if i < proxRowNo:
+                continue
             elif len(row) == 1:
                 cat = row[0]
                 continue
-
             elif cat not in categories:
                 continue
-
             else:
                 if cat == 'Proximates':
                     if row[1] == 'kJ':
