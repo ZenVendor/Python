@@ -3,60 +3,60 @@ class Record:
     completeDict = {}
 
     # meta
-    usdaId = [None, 'USDA Id']
-    usdaName = [None, 'Name']
-    usdaRecordDate = [None, 'Record Date']
-    usdaFoodGroup = [None, 'Food Group']
-    usdaValueColumn = [None, '100g']
+    usdaId = ['', 'USDA Id']
+    usdaName = ['', 'Name']
+    usdaRecordDate = ['', 'Record Date']
+    usdaFoodGroup = ['', 'Food Group']
+    usdaValueColumn = ['', '100g']
 
     # energy
-    energy = [0.0, 'kCal', 'Energy']
+    energy = {'Value': 0.0, 'Unit': 'kCal', 'Name': 'Energy'}
 
     # carbs
-    totalCarbs = [0.0, 'g', 'Total Carbs']
-    fiber = [0.0, 'g', 'Fiber']
-    sugar = [0.0, 'g', 'Sugars']
+    totalCarbs = {'Value': 0.0, 'Unit': '', 'Name': 'Total Carbs'}
+    fiber = {'Value': 0.0, 'Unit': '', 'Name': 'Fiber'}
+    sugar = {'Value': 0.0, 'Unit': '', 'Name': 'Sugars'}
 
     # protein
-    protein = [0.0, 'g', 'Protein']
+    protein = {'Value': 0.0, 'Unit': '', 'Name': 'Protein'}
 
     # fats
-    totalFat = [0.0, 'g', 'Total Fat']
-    satFat = [0.0, 'g', 'Saturated Fat']
-    monoFat = [0.0, 'g', 'Monounsaturated Fat']
-    polyFat = [0.0, 'g', 'Polyunsaturated Fat']
-    transFat = [0.0, 'g', 'Trans Fat']
+    totalFat = {'Value': 0.0, 'Unit': '', 'Name': 'Total Fat'}
+    satFat = {'Value': 0.0, 'Unit': '', 'Name': 'Saturated Fat'}
+    monoFat = {'Value': 0.0, 'Unit': '', 'Name': 'Monounsaturated Fat'}
+    polyFat = {'Value': 0.0, 'Unit': '', 'Name': 'Polyunsaturated Fat'}
+    transFat = {'Value': 0.0, 'Unit': '', 'Name': 'Trans Fat'}
 
     # minerals
-    ca = [0.0, '', 'Calcium']
-    cu = [0.0, '', 'Copper']
-    f = [0.0, '', 'Fluoride']
-    fe = [0.0, '', 'Iron']
-    mg = [0.0, '', 'Magnesium']
-    mn = [0.0, '', 'Manganese']
-    p = [0.0, '', 'Phosphorus']
-    k = [0.0, '', 'Potassium']
-    se = [0.0, '', 'Selenium']
-    na = [0.0, '', 'Sodium']
-    zn = [0.0, '', 'Zinc']
+    ca = {'Value': 0.0, 'Unit': '', 'Name': 'Calcium'}
+    cu = {'Value': 0.0, 'Unit': '', 'Name': 'Copper'}
+    f = {'Value': 0.0, 'Unit': '', 'Name': 'Fluoride'}
+    fe = {'Value': 0.0, 'Unit': '', 'Name': 'Iron'}
+    mg = {'Value': 0.0, 'Unit': '', 'Name': 'Magnesium'}
+    mn ={'Value': 0.0, 'Unit': '', 'Name': 'Manganese'}
+    p = {'Value': 0.0, 'Unit': '', 'Name': 'Phosphorus'}
+    k = {'Value': 0.0, 'Unit': '', 'Name': 'Potassium'}
+    se = {'Value': 0.0, 'Unit': '', 'Name': 'Selenium'}
+    na = {'Value': 0.0, 'Unit': '', 'Name': 'Sodium'}
+    zn = {'Value': 0.0, 'Unit': '', 'Name': 'Zinc'}
 
     # vitamins
-    vitA = [0.0, '', 'Vitamin A']
-    vitB6 = [0.0, '', 'Vitamin B6']
-    vitB12 = [0.0, '', 'Vitamin B12']
-    vitC = [0.0, '', 'Vitamin C']
-    vitD = [0.0, '', 'Vitamin D']
-    vitE = [0.0, '', 'Vitamin E']
-    vitK = [0.0, '', 'Vitamin K']
-    carotA = [0.0, '', 'Carotene Alpha']
-    carotB = [0.0, '', 'Carotene Beta']
-    betaine = [0.0, '', 'Betaine']
-    choline = [0.0, '', 'Choline']
-    folate = [0.0, '', 'Folate']
-    niacin = [0.0, '', 'Niacin']
-    pantoAcid = [0.0, '', 'Pantothenic Acid']
-    riboflavin = [0.0, '', 'Riboflavin']
-    thiamin = [0.0, '', 'Thiamin']
+    vitA = {'Value': 0.0, 'Unit': '', 'Name': 'Vitamin A'}
+    vitB6 = {'Value': 0.0, 'Unit': '', 'Name': 'Vitamin B6'}
+    vitB12 = {'Value': 0.0, 'Unit': '', 'Name': 'Vitamin B12'}
+    vitC = {'Value': 0.0, 'Unit': '', 'Name': 'Vitamin C'}
+    vitD = {'Value': 0.0, 'Unit': '', 'Name': 'Vitamin D'}
+    vitE = {'Value': 0.0, 'Unit': '', 'Name': 'Vitamin E'}
+    vitK = {'Value': 0.0, 'Unit': '', 'Name': 'Vitamin K'}
+    carotA = {'Value': 0.0, 'Unit': '', 'Name': 'Carotene Alpha'}
+    carotB = {'Value': 0.0, 'Unit': '', 'Name': 'Carotene Beta'}
+    betaine = {'Value': 0.0, 'Unit': '', 'Name': 'Betaine'}
+    choline = {'Value': 0.0, 'Unit': '', 'Name': 'Choline'}
+    folate = {'Value': 0.0, 'Unit': '', 'Name': 'Folate'}
+    niacin = {'Value': 0.0, 'Unit': '', 'Name': 'Niacin'}
+    pantoAcid = {'Value': 0.0, 'Unit': '', 'Name': 'Pantothenic Acid'}
+    riboflavin = {'Value': 0.0, 'Unit': '', 'Name': 'Riboflavin'}
+    thiamin = {'Value': 0.0, 'Unit': '', 'Name': 'Thiamin'}
 
     proximates = {
         'Energy': energy,
@@ -103,4 +103,9 @@ class Record:
         'Riboflavin': riboflavin,
         'Thiamin': thiamin
     }
-
+    categories = {
+        'Proximates': proximates,
+        'Lipids': lipids,
+        'Minerals': minerals,
+        'Vitamins': vitamins
+    }
