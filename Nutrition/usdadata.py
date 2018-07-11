@@ -1,6 +1,7 @@
 import csv
 import os
 import glob
+import datetime
 
 # script processes files downloaded from USDA Food Composition Databases https://ndb.nal.usda.gov/ndb
 # Standard reference database (generic foods), full report, csv
@@ -100,7 +101,12 @@ for inFile in glob.glob(inFolder + '*.csv'):
 
         # Check if exists or has to bee updated, else skip
         if foodItemMeta['USDA Id'] in existingItems.keys():
-            if foodItemMeta['Report Date'] <= existingItems[foodItemMeta['USDA Id']]:
+
+            newReportDate = datetime.date(int(reportDate[2]), int(monthNames[reportDate[0]]), int(reportDate[1]))
+            oRD = existingItems[foodItemMeta['USDA Id']].split('-')
+            oldReportDate = datetime.date(int(oRD[0]), int(oRD[1]), int(oRD[2]))
+
+            if newReportDate <= oldReportDate:
                 break
 
         existingItems[foodItemMeta['USDA Id']] = foodItemMeta['Report Date']
@@ -158,8 +164,15 @@ for inFile in glob.glob(inFolder + '*.csv'):
 
 if len(csvRows) > 0:
 
-    with open(outFile, 'a', newline='') as output:
+    for i in range(len(csvRows)):
+        for j in range(i + 1, len(csvRows)):
+            if csvRows[i][0] == csvRows[j][0]:
+                if csvRows[i][2] > csvRows[j][2]:
+                    del(csvRows[j])
+                else:
+                    del(csvRows[i])
+
+    with open(outFile, 'w', newline='') as output:
         out = csv.writer(output, 'nutrition')
-        if not hasHeader:
-            out.writerow(csvHeader)
+        out.writerow(csvHeader)
         out.writerows(csvRows)
