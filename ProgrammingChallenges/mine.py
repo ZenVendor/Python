@@ -1,5 +1,6 @@
-import re
-import sys
+import os, re, sys
+
+os.system('clear')
 
 wh = input('Enter WxH: ')
 
@@ -19,6 +20,8 @@ if mines == 'random':
 	mnumber = random.randrange((w * h)//5, (w * h)//3)
 	for d in range(0, mnumber):
 		mines.append(random.randrange(0, (w * h)- 1))
+	
+	mines = set(mines)
 			
 elif re.search('^(\d+,)+\d+$', mines):
 	mines = list(map(int, mines.split(',')))
