@@ -1,15 +1,14 @@
 """
 TODO:
-- coordinate validation
 - win state
 """
 
-import os, re, sys
+import os, re, time
 
 def adjacent(width, height, row, column):
     adjacent = []
-    for r in range((0 if (row - 1) < 0 else (row - 1)), ((row + 2) if (row + 2) < height else height)):
-        for c in range((0 if (column - 1) < 0 else (column - 1)), ((column + 2) if (column + 2) < width else width)):
+    for r in range(0 if (row - 1) < 0 else (row - 1), (row + 2) if (row + 2) < height else height):
+        for c in range(0 if (column - 1) < 0 else (column - 1), (column + 2) if (column + 2) < width else width):
             if r != row or c != column:
                 adjacent.append((r * width) + c)
     return adjacent
@@ -17,26 +16,27 @@ def adjacent(width, height, row, column):
 def display_board(width, height, board):
     os.system('clear')
     ruler = []
+    
     for i in range(width):
         ruler.append(chr(ord('A') + i))
+    
     print('    {}'.format(ruler))            
     for h in range(0, height):
         print('{}: {}{}'.format(h, ' ' if h < 10 else '', board[(h * width) : (h * width) + (width)]))
+        
 
-
-width = int(input('Width: '))
-height = int(input('Height: '))
+width = int(input('Board width: '))
+height = int(input('Board height: '))
 
 import random
+
 mines = []
-for i in range(0, random.randrange((width * height) // 5, (width * height) // 3)):
+
+for i in range(0, 
+    random.randrange((width * height) // 5, (width * height) // 3)):
     mines.append(random.randrange(0, width * height))
 
 mines = set(mines)
-
-minefield = ['.'] * (width * height)
-for m in mines:
-    minefield[m] = '*'
 
 hints = [0] * (width * height)
 
@@ -53,7 +53,7 @@ board = ['.'] * (width * height)
 while True:
     display_board(width, height, board)    
 
-    print('Enter coordinates (e.g. a5), "flag" to flag mines or "exit".')
+    print('Type coordinates (e.g. a5), "flag" to flag mines or "exit".')
     selection = input('>: ')
     
     if selection == 'exit':
@@ -69,8 +69,16 @@ while True:
             
         else:
             flags = flags.split(',')
+            errors = []
             for f in flags:
-                board[(int(f[1]) * width) + (ord(f[0].lower()) - ord('a'))] = 'F'
+                if (ord(f[0].lower()) - ord('a') < width) and (int(f[1]) < height):
+                    board[(int(f[1]) * width) + (ord(f[0].lower()) - ord('a'))] = 'F'
+                else:
+                    errors.append(f)
+                
+        if errors:
+            print('{} are invalid'.format(errors))
+            time.sleep(1)
         
     elif not re.search('^[A-Za-z]\d$', selection):
         print("wrong coordinates")
@@ -80,27 +88,32 @@ while True:
         sel_row = int(selection[1])
         sel_col = ord(selection[0].lower()) - ord('a')
         
-        if hints[(sel_row * width) + sel_col] == -1:
-            print("BOOM")
-            break
-            
-        elif hints[(sel_row * width) + sel_col] > 0:
-            board[(sel_row * width) + sel_col] = str(hints[(sel_row * width) + sel_col])
+        if sel_row < height and sel_col < width:
+        
+            if hints[(sel_row * width) + sel_col] == -1:
+                print("BOOM")
+                break
+                
+            elif hints[(sel_row * width) + sel_col] > 0:
+                board[(sel_row * width) + sel_col] = str(hints[(sel_row * width) + sel_col])
 
+            else:
+                zero_cache = [(sel_row * width) + sel_col]
+                zeroes = []
+
+                while zero_cache:
+                    z = zero_cache.pop()
+                    zeroes.append(z)
+                    adj = adjacent(width, height, (z // width), (z % width))
+
+                    for a in adj:
+                        board[a] = str(hints[a])
+                        if (hints[a] == 0) and (a not in zeroes):
+                            zero_cache.append(a)
+
+                for z in zeroes:
+                    board[z] = '0'
+        
         else:
-            zero_cache = [(sel_row * width) + sel_col]
-            zeroes = []
-
-            while zero_cache:
-                z = zero_cache.pop()
-                zeroes.append(z)
-                adj = adjacent(width, height, (z // width), (z % width))
-
-                for a in adj:
-                    board[a] = str(hints[a])
-                    if (hints[a] == 0) and (a not in zeroes):
-                        zero_cache.append(a)
-
-            for z in zeroes:
-                board[z] = '0'
-
+            print('{} is invalid'.format(selection))
+            time.sleep(1)
